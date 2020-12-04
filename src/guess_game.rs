@@ -3,7 +3,25 @@ use std::io;
 use rand::Rng; 
 use std::cmp::Ordering;
 
-fn main() {
+
+
+fn print_thing() {
+    println!("Thing"); 
+}
+
+// String type is reserved for mutability and ownership, prefer &str for parameters! 
+// https://www.ameyalokare.com/rust/2017/10/12/rust-str-vs-String.html
+fn param_print(x:&str) {
+    println!("{}", x); 
+}
+fn guess() {
+
+    let wow = "wow";
+    
+
+    param_print(wow);
+    print_thing(); 
+
     println!("Hello, world!");
 
     println!("Please input your guess.");
