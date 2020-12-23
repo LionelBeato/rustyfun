@@ -4,24 +4,21 @@ fn loop_fun() {
         println!("again!");
     }
 
-
     let result = loop {
-        counter += 1; 
+        counter += 1;
 
         if counter == 10 {
-            break counter * 2; 
+            break counter * 2;
         }
     };
 
-    let x = 1; 
+    let x = 1;
 
     while x == 1 {
         println!("hi!");
     }
 
     for number in (1..4) {
-        println!("{}", number); 
+        println!("{}", number);
     }
-
 }
-
