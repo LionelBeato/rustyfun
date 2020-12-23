@@ -3,7 +3,7 @@ fn main() {
     println!("Hi");
     println!("hi world");
 
-    let my_string = String::from("Howdy");
+    // let my_string = String::from("Howdy");
     let hello = String::from("hello!");
 
     println!("{}", hello);
