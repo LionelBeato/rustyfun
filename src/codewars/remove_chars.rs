@@ -1,7 +1,11 @@
 pub fn remove_char(s: &str) -> String {
 
     // Your code here!
-    String::from("Code on, rustacean!")
+    // String::from("Code on, rustacean!")
+
+    let new_string = String::from(s); 
+    
+    new_string
 }
 
 

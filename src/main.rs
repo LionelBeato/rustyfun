@@ -39,12 +39,16 @@ fn main() {
     println!("{:?}", mapped); 
     println!("{}", sum);
 
-    let x = 3;
+    // let x = 3;
     // not allowed! can't capture environment variable
     // fn triple(y: i32) -> i32 { x * y };
     // allowed! closures can capture variables outside its scope
-    let triple = |y: i32| -> i32 { x * y };
+    // let triple = |y: i32| -> i32 { x * y };
 
+
+    let my_string = "hello world";
+    let byte = my_string.as_bytes()[0];
+    println!("{}", byte as char); 
 
 
 }
