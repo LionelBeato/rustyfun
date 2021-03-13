@@ -7,3 +7,4 @@ pub mod keep_hydrated;
 pub mod playing_banjo;
 pub mod abbrev_name;
 pub mod round_to_next_5;
+pub mod high_low;
